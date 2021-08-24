@@ -1,0 +1,86 @@
+{
+    "productos": [
+        {
+            "nombre": "Refisal",
+            "descripcion": "Sal refinada 1000gr",
+            "precio": "$ 1.250",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/1430427-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "despensa",
+            "referencia": "sal001",
+            "id": 1
+        },
+        {
+            "nombre": "Cafe sello rojo",
+            "descripcion": "Cafe molido 500gr",
+            "precio": "$ 8.900",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/869989-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "despensa",
+            "referencia": "caf001",
+            "id": 2
+        },
+        {
+            "nombre": "Atun van camps",
+            "descripcion": "atunen aceite 240gr",
+            "precio": "$ 14.500",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/5195759-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "despensa",
+            "referencia": "enl001",
+            "id": 3
+        },
+        {
+            "nombre": "Corona",
+            "descripcion": "Cerveza sixpack 210ml",
+            "precio": "$ 15.000",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/5452988-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "licores",
+            "referencia": "cerv001",
+            "id": 4
+        },
+        {
+            "nombre": "Las moras",
+            "descripcion": "Vino tinto argentino 750ml",
+            "precio": "$ 48.800",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/483775-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "licores",
+            "referencia": "vin001",
+            "id": 5
+        },
+        {
+            "nombre": "Chivas Regal",
+            "descripcion": "Whisky chivas regal 12años 1000ml",
+            "precio": "$ 132.900",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/1216406-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "licores",
+            "referencia": "whi001",
+            "id": 6
+        },
+        {
+            "nombre": "Banano",
+            "descripcion": "banano 1und",
+            "precio": "$ 700",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/3903665-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "Fruver",
+            "referencia": "fru001",
+            "id": 7
+        },
+        {
+            "nombre": "Limon Taeq",
+            "descripcion": "limon tahiti malla 1000gr",
+            "precio": "$ 1.250",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/3548657-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "Fruver",
+            "referencia": "fru002",
+            "id": 8
+        },
+        {
+            "nombre": "Espinaca baby",
+            "descripcion": "Espinaca baby 150gr",
+            "precio": "$ 4.800",
+            "imagen": "https://carulla.vtexassets.com/arquivos/ids/3208207-500-auto?width=500&height=auto&aspect=true",
+            "categoria": "Fruver",
+            "referencia": "ver001",
+            "id": 9
+        }
+                
+    ]
+}
