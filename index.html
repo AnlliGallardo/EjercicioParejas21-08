@@ -25,36 +25,47 @@
                 </div>
             </div>
             
-                
-    </header>
-    <main>           
-        <div class="row">
-            <div class="col-6 mx-1">
-                <button id="producto1" class="btn-perro btn btn-secondary">
-                    <div class="row">
-                        <div class="col-4 icono-perro">
-                            <img id="produc1" src="./images/productos.jpg">
-                        </div>
-                        <div class="col-6 categoria-perro">
-                            <p class="p">Producto</p>
-                        </div>
-                    </div>
-                </button>
-            </div>
+        
+            
 
-            <div class="buscar">
+    </header>
+    <main>       
+        
+        <button class="volver" id="Volver">Volver</button>
+        <div class="buscar">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Categoría de Producto">
+                <button type="button" id="Buscar" class="btn btn-primary active">Buscar</button>
+              </form>
+        </div>
+        <div class="filtrar">
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Categoría de Producto">
-                    <button type="button" class="btn btn-primary active">Buscar</button>
+                    <input class="form-control me-2" type="search" placeholder="Filtrar por Categoría">
+                    <button type="button" id="filtro" class="btn btn-primary active">Buscar</button>
                   </form>
+        </div>
+        
+        <div class="container-fluid mt-4 mb-3">
+            <div class="row row-cols-2 row-cols-md-2 g-4 gridProductos" id="pro">
+
             </div>
-            <div class="filtrar">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Filtrar por Categoría">
-                        <button type="button" class="btn btn-primary active">Buscar</button>
-                      </form>
+        </div>
+
+        <div class="container-fluid mt-4 mb-3">
+            <div class="row row-cols-2 row-cols-md-2 g-4 gridFiltro">
+
             </div>
- 
+        </div>
+
+        <div class="container-fluid mt-4 mb-3">
+            <div class="row row-cols-2 row-cols-md-2 g-4 gridBuscar">
+
+            </div>
+        </div>
+
+            
+            
+            
 
     </main>
     <footer>
@@ -72,6 +83,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
-<script src="./script/getData.js"></script>
-
-    
+<script src="./scripts/getData.js"></script>
+</html>   

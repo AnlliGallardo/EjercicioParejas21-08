@@ -16,7 +16,7 @@
 #producto1{
     margin-left: 390px;
     width: 300px;
-    margin-top: 180px;
+    margin-top: 20px;
 }
 
 p{
@@ -27,13 +27,13 @@ p{
 
 .buscar{
     width: 400px;
-    margin-top: -290px;
+    margin-top: 10px;
     margin-left: 360px;
 }
 
 .filtrar{
     width: 400px;
-    margin-top: -230px;
+    margin-top: 10px;
     margin-left: 360px;
 }
 

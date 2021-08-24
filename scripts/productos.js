@@ -10,11 +10,11 @@ formulario.addEventListener('submit', async (e) => {
     e.preventDefault();
 
 let name = document.getElementById('name').value;
-let desc = document.getElementById('lastName').value;
-let precio = document.getElementById('email').value;
-let img = document.getElementById('name').value;
-let cate = document.getElementById('lastName').value;
-let ref = document.getElementById('email').value;
+let desc = document.getElementById('desc').value;
+let precio = document.getElementById('precio').value;
+let img = document.getElementById('img').value;
+let cate = document.getElementById('cate').value;
+let ref = document.getElementById('ref').value;
 
   
     let resp = await fetch('http://localhost:4003/productos/',{
@@ -37,13 +37,13 @@ let ref = document.getElementById('email').value;
 
 btnRef.addEventListener('click', async () => {
 
-    let refe = document.getElementById('refe').value;
-    document.getElementById('refe').readOnly = true;
+    let ref = document.getElementById('ref').value;
+    document.getElementById('ref').readOnly = true;
 
     let resp = await fetch('http://localhost:4003/productos/');
     let data = await resp.json();
     console.log(data);
-    let modificar = data.find(user => user.refe === referencia)
+    let modificar = data.find(user => user.referencia === ref)
     const {imagen,nombre,descripcion,precio,referencia,id,categoria} = modificar;
  
     document.getElementById('name').value = nombre;
@@ -55,27 +55,6 @@ btnRef.addEventListener('click', async () => {
     document.getElementById('id').value = id;
     
 })
-btnNom.addEventListener('click', async () => {
-
-    let nom = document.getElementById('name').value;
-    document.getElementById('refe').readOnly = true;
-
-    let resp = await fetch('http://localhost:4003/productos/');
-    let data = await resp.json();
-    console.log(data);
-    let modificar = data.find(user => user.nom === nombre)
-    const {imagen,nombre,descripcion,precio,referencia,id,categoria} = modificar;
- 
-    document.getElementById('name').value = nombre;
-    document.getElementById('desc').value = descripcion;
-    document.getElementById('precio').value =precio;
-    document.getElementById('img').value = imagen;
-    document.getElementById('cate').value = categoria;
-    document.getElementById('ref').value = referencia;
-    document.getElementById('id').value = id;
-    
-})
-
 
 btnEditar.addEventListener('click', async() => {
     let idModificar = document.getElementById('id').value;
