@@ -1,0 +1,151 @@
+#home {
+    background: var(--color-primary);
+    font-family: Nunito;
+    font-style: normal;
+}
+
+
+#produc1{
+    width: 90px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+#producto1{
+    margin-left: 390px;
+    width: 300px;
+    margin-top: 180px;
+}
+
+p{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 100px;
+}
+
+.buscar{
+    width: 400px;
+    margin-top: -290px;
+    margin-left: 360px;
+}
+
+.filtrar{
+    width: 400px;
+    margin-top: -230px;
+    margin-left: 360px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+@media (min-width: 540px) {
+    .titulo {
+        text-align: center;
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+    }
+    .btn-categorias {
+        text-align: center;
+        margin-bottom: 70px;
+        
+    }
+    .icono-perro {
+        margin-left: 30px;
+        margin-right: 14px;
+        width: 45px;
+    }
+    #imagen-productos {
+        padding-top: 14px;
+        margin-left: 0px;
+    }
+    .produc1 {
+        width: 100px;
+        height: 105px;
+    }
+    .div-categorias {
+        margin-bottom: 55px;
+    }
+    /**/
+    .card-img {
+        width: 50px;
+        height: 50px;
+    }
+    .columna1, .columna2 {
+        margin-left: 165px;
+        margin-right: 135px;
+        width: 324px !important;
+    }
+    .card-img-overlay {
+        width: 150px !important;
+        ;
+        height: 150px!important;
+        ;
+    }
+    .card-title {
+        margin-top: 115%;
+    }
+    .grid-mascotas {
+        justify-content: center;
+    }
+    .btn-modal {
+        width: 345px !important;
+        padding: 26px !important;
+    }
+    .div-btn-modal {
+        text-align: center;
+    }
+    .mascotas {
+        width: 20%;
+    }
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+    opacity: 50%;
+    
+}
+
+.modal-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 327px;
+}
+
+.modal-texto {
+    text-align: center;
+}
+
+.btn-modal {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+}
+
+.modal {
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 70px;
+}
+
+.card-img-overlay {
+    box-shadow: inset 0px -51px 40px -15px #000000;
+    height: 250px;
+    width: 156px;
+    border-radius: 16px;
+}
+
+.modal-footer{
+    justify-content: center;
+}
